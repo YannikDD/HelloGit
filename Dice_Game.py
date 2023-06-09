@@ -12,9 +12,9 @@ def roll_dice():
     total_value = die1 + die2
     print("Total value:", total_value)
     if total_value > 7:
-        print("You won!")
+        print(name + " won!")
     else:
-        print("You lost.")
+        print(name + " lost.")
 
 name = input("What is your name? ")
 print("Hello,", name + "!")
