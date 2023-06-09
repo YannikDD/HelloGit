@@ -10,6 +10,9 @@ def roll_dice():
     print("Die 2:", die2)
     print("Total value:", die1 + die2)
 
+name = input("What is your name? ")
+print("Hello,", name + "!")
+
 roll_dice()
 
 
