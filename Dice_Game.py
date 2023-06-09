@@ -16,6 +16,9 @@ def roll_dice():
     else:
         print("You lost.")
 
+name = input("What is your name? ")
+print("Hello,", name + "!")
+
 roll_dice()
 
 
